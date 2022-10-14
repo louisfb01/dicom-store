@@ -1,0 +1,23 @@
+{
+  "name": "dicom-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "caprover:setup": "node ./caprover/setup.js",
+    "caprover:deploy": "node ./caprover/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coda-platform/dicom-store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coda-platform/dicom-store/issues"
+  },
+  "homepage": "https://github.com/coda-platform/dicom-store#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}

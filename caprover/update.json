@@ -1,0 +1,13 @@
+{
+    "appName": "dicom-store",
+    "instanceCount": 1,
+    "notExposeAsWebApp": false,
+    "containerHttpPort": "$ORTHANC_PORT",
+    "forceSsl": true,
+    "envVars": [
+        {
+            "key": "ORTHANC_PORT",
+            "value": "$ORTHANC_PORT"
+        }
+    ]
+}
