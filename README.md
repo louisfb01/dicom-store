@@ -1,1 +1,1 @@
-# image-store
+# dicom-store
