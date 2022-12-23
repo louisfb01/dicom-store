@@ -1,4 +1,4 @@
-FROM jodogne/orthanc:latest
+FROM jodogne/orthanc-plugins:latest
 
 ARG CODA_DICOM_STORE_PORT=${CODA_DICOM_STORE_PORT}
 ENV ORTHANC_PORT=${CODA_DICOM_STORE_PORT}
