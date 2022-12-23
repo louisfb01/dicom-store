@@ -2,12 +2,12 @@
     "appName": "dicom-store",
     "instanceCount": 1,
     "notExposeAsWebApp": false,
-    "containerHttpPort": "$ORTHANC_PORT",
+    "containerHttpPort": "$CODA_DICOM_STORE_PORT",
     "forceSsl": true,
     "envVars": [
         {
-            "key": "ORTHANC_PORT",
-            "value": "$ORTHANC_PORT"
+            "key": "CODA_DICOM_STORE_PORT",
+            "value": "$CODA_DICOM_STORE_PORT"
         }
     ]
 }
